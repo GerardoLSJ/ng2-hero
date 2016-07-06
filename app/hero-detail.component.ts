@@ -4,8 +4,8 @@ import { Hero }        from './hero';
 import { HeroService } from './hero.service';
 @Component({
   selector: 'my-hero-detail',
-  templateUrl: 'app/hero-detail.component.html',
-  styleUrls: ['app/hero-detail.component.css']
+  templateUrl: 'app/html/hero-detail.component.html',
+  styleUrls: ['app/css/hero-detail.component.css']
 })
 export class HeroDetailComponent implements OnInit, OnDestroy {
   @Input() hero: Hero;
